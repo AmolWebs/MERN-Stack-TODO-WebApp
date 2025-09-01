@@ -1,0 +1,147 @@
+body{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Fredoka", sans-serif;
+}
+
+h1{
+  padding: 0;
+  margin: 0;
+  color: black;
+  font-weight: 500;
+}
+
+.main-div{
+  padding: 0;
+  margin: 0;
+  min-height: 100vh;
+  background: linear-gradient(to bottom right, #f9fafb, #7abcdf);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem;
+}
+
+.main-content{
+  background-color: white;
+  width: 100%;
+  padding: 1rem;
+  border-radius: 9px;
+  box-shadow: 1px 5px 5px rgb(97, 97, 97);
+}
+
+.title-text{
+  margin-bottom: 20px;
+}
+
+.input-form{
+  border: 1px solid rgb(219, 219, 219);
+  padding: 10px;
+  box-shadow: 1px 5px 5px rgb(203, 203, 203);
+  border-radius: 10px;
+}
+
+.input-text-btn{
+  display: flex;
+  align-items:center ;
+  /* justify-content: space-around; */
+}
+
+.input-box{
+  outline: none;
+  padding: 10px 20px;
+  color: rgb(73, 73, 73);
+  /* width: 50%; */
+  flex: 1 1 0%;
+  border: 1px solid rgb(219, 219, 219);
+}
+
+.input-btn{
+  padding: 11px 20px;
+  background-color: #80D8C3;
+  border: none;
+  color: white;
+  border-radius: 0px 0px 7px 0px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.input-btn:hover{
+  background-color: #46dab7;
+}
+
+.editing-data{
+  display: flex;
+  align-items: center;
+  gap: 30%;
+  justify-content: center;
+  /* background-color: rgb(240, 240, 240); */
+ box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+  border-radius: 10px;
+}
+
+
+.todo-list{
+  margin:  10px 10px;
+  padding: 10px;
+  /* border: 1px solid black; */
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+.main-data{
+  display: flex;
+  align-items: center;
+  gap: 30%;
+  justify-content: center;
+}
+
+.tic-text{
+  display: flex;
+  width: 30%;
+  align-items: center;
+  gap: 5px;
+}
+
+.complete-btn{
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.btn-box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+}
+
+.data-btn{
+  border: none;
+  background-color: #4DA8DA;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.comp{
+  color: white;
+  padding: 0;
+  margin: 0;
+  border: none;
+  outline: none;
+  border-radius: 50%;
+}
+
+.uncomp{
+  /* color: white; */
+  background-color: black;
+  /* padding: 4px; */
+  margin: 0;
+  border: 1px solid black;
+  border-radius: 50%;
+  outline: none;
+}
